@@ -49,7 +49,7 @@ public class ED_3 {
             FileWriter file = new FileWriter("sequence.txt");
             BufferedWriter bw = new BufferedWriter(file);
             Random r = new Random();
-            int length, start, datasize = 10000000;
+            int length, start, datasize = 15;
             String e;
             for (int i = 0; i < datasize; i++){
                 length = r.nextInt(50) + 1;

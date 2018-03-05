@@ -16,6 +16,8 @@ public class Sequence {
     public int start;
     public int end;
     
+    public Sequence next; //apuntador 
+    
     public Sequence (){};
 
     public Sequence(String sequence, String chromosome, int start, int end) {
@@ -23,6 +25,8 @@ public class Sequence {
         this.chromosome = chromosome;
         this.start = start;
         this.end = end;
+        this.next = null;
     }
-        
+    
+    
 }
