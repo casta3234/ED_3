@@ -54,7 +54,7 @@ public class ED_3 {
             for (int i = 0; i < datasize; i++){
                 length = r.nextInt(50) + 1;
                 start = r.nextInt(1000) + 1;
-                e = sequence(length) + ", " + chromosome() + ", " + i + ", " + (i + length -1);
+                e = sequence(length) + "," + chromosome() + "," + i + "," + (i + length -1);
                 bw.write(e + "\n");
             }
             bw.flush();

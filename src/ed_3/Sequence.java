@@ -15,6 +15,15 @@ public class Sequence {
     public String chromosome;
     public int start;
     public int end;
+    private Sequence siguiente;
+
+    public void setSiguiente(Sequence siguiente) {
+        this.siguiente = siguiente;
+    }
+
+    public Sequence getSiguiente() {
+        return siguiente;
+    }
     
     public Sequence next; //apuntador 
     
